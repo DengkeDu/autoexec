@@ -1,0 +1,11 @@
+[Unit]
+Description=As a server waitting for client connecting
+After=megapi-ap.service
+
+[Service]
+Type=idle
+ExecStart=/home/pi/workdir/autoexec/rtsp-server.sh
+
+[Install]
+WantedBy=multi-user.target
+
