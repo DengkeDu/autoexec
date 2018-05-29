@@ -4,7 +4,7 @@ After=megapi-ap.service
 
 [Service]
 Type=idle
-ExecStart=/usr/bin/python /home/pi/raspberry/RaspBlueToAndroid/server/server2.py
+ExecStart=/usr/bin/python /home/pi/workdir/RaspSocketServer/server2.py
 
 [Install]
 WantedBy=multi-user.target
